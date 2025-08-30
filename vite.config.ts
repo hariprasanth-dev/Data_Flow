@@ -12,6 +12,8 @@ export default defineConfig({
   },
   build: {
     chunkSizeWarningLimit: 5000,
+    outDir: "dist",       // 👈 ensures index.html is at dist/
+    emptyOutDir: true     // 👈 cleans old builds before new one
   },
   resolve: {
     alias: {
