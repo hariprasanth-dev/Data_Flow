@@ -9,8 +9,8 @@ import {
 } from "@getmocha/users-service/backend";
 import { getCookie, setCookie } from "hono/cookie";
 
-const app = new Hono<{ Bindings: Env }>();
-
+// const app = new Hono<{ Bindings: Env }>();
+const app = new Hono<{ Bindings: any }>();
 // Enable CORS for all routes
 app.use("/*", cors({
   origin: "*",

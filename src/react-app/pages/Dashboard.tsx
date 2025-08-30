@@ -5,10 +5,7 @@ import {
   Activity,
   TrendingUp,
   ShoppingCart,
-  Eye,
-  Clock,
   Target,
-  FileText,
   Database,
   BarChart3
 } from 'lucide-react';
