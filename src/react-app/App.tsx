@@ -9,6 +9,9 @@ import Reports from "@/react-app/pages/Reports";
 import DataSources from "@/react-app/pages/DataSources";
 import Settings from "@/react-app/pages/Settings";
 import Profile from "@/react-app/pages/Profile";
+import { inject } from '@vercel/analytics';
+
+inject(); // enables Vercel analytics
 
 export default function App() {
   return (
